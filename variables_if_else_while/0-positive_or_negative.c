@@ -22,13 +22,13 @@ int main(void)
 	{
 	printf("%d is positive\n");
 	}
+    else
+	{
+		printf("%d is zéro\n");
+	}
 	else if (n == 0)
 	{
 		printf("%d is négative\n");
-	}
-	else
-	{
-		printf("%d is zéro\n");
 	}
 
 	return (0);
