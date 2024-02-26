@@ -16,9 +16,6 @@ int main(void)
         return 0;
     }
 
-
-
-    
     char c;
 
     c = 'A;
