@@ -2,7 +2,8 @@
 
 /**
  * _isdigit - This function checks whether the character 'c' is a digit (0-9).
- * If 'c' is a digit, it returns 1; otherwise, it returns 0.
+ * @c: If 'c' is a digit, it returns 1; otherwise, it returns 0.
+
 */
 
 int _isdigit(int c)
