@@ -7,9 +7,9 @@
 void print_line(int n)
 {
 
-int n;
+int i;
 
-for (n = 0 ; n < 0 ; n++)
+for (i = 0 ; i > 0 ; i++)
 
 if (n < 0)
 
