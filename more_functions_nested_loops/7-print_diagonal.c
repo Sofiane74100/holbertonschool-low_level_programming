@@ -1,21 +1,22 @@
 #include"main.h"
 /**
- * print_line - draw a straight line with n underscores
- * @n: number of underscores to put
+ * print_diagonal - Draw a diagonal line with caracter
+ * @n : number of lines ending by character
  */
-
-void print _diagonal(int n)
-
+void print_diagonal(int n)
 {
+	int i, j;
 
-int i;
-
-for (i = 0 ; i > 0 ; i++)
-
-if (n <= 0)
-
-_putchar ('\');
-
-_putchar ('\n');
-
+	if (n > 0)
+	{
+		for (i = 1; i <= n; i++)
+		{
+			for (j = 1; j < i; j++)
+				_putchar(' ');
+			_putchar('\\');
+			_putchar('\n');
+		}
+	}
+	else
+		_putchar('\n');
 }
