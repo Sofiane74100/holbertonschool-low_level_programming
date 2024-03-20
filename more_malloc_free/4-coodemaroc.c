@@ -7,13 +7,13 @@ int main ()
 int n;
 
 printf("Entrer un entier\n");
-scanf("%d, &n");
+scanf("%d", &n);
 
 if (n % 2 == 0)
-	printf("pair\n",n);
+	printf("%d est pair\n",n);
 
 else
-	printf("impair",n);
+	printf("%d impair\n",n);
 
 	return (0);
 }
